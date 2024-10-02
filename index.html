@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>login</title>
+</head>
+<style>
+	
+	body
+	{  
+		  background: url("back3.jpg")no-repeat;
+		  background-size: cover;
+	      transition: 0.5s; 
+	      opacity: 0;
+	}
+
+	body:hover
+	{
+	     
+	    background: url("back.jpg")no-repeat;
+		background-size: cover;
+        cursor: pointer; 
+	    transition: 0.5s;
+		opacity: 1;
+	}
+
+	.box1
+	{
+		width: 400px;
+		height: 450px;
+		text-align: center;
+		border: 2px white solid;
+		color: cyan;
+		margin-left: 50px;
+		border-top-right-radius:25px;
+		border-bottom-left-radius: 35px;
+		margin-top:100px;
+		font-size: 25px;
+		box-shadow: 10px 10px 25px 20px rgba(12,45,89,0.5);
+
+	}
+	input[type="text"]
+	{
+		border-radius: 8px;
+		font-size: 15px;
+		text-align: center;
+		width: 250px;
+		height: 20px;
+		margin-top: 5px;
+		background: transparent;
+		outline: none;
+		border-top: none;
+		border-left:none ;
+		border-right:none ;
+		width: 80%;
+		color: orange;
+	}
+
+	input[type="password"]
+	{
+		border-radius: 8px;
+		font-size: 15px;
+		text-align: center;
+		width: 250px;
+		height: 20px;
+		margin-top: 10px;
+		background: transparent;
+		outline: none;
+		border-top: none;
+		border-left:none ;
+		border-right:none ;
+		width: 80%;
+		color: orange;
+	}
+
+	input[type="submit"]
+	{
+		color: cyan;
+		border-radius: 8px;
+		text-align: center;
+		width: 150px;
+		height: 30px;
+		margin-top: 10px;
+		background: transparent;
+	}
+	input[type="submit"]:hover
+	{
+		cursor: pointer;
+		background: red;
+		color: mintcream;
+	}
+
+</style>
+
+<body>
+
+	<div class="box1">
+		<h2>log in</h2>
+		<div>
+		<p>enter your email</p>
+		<div><input type="text" placeholder="Enter your Email" id="email"></div><br>
+		enter your password	<input type="password" placeholder="Enter your password" id="password"><br>
+			<br>
+		<input class="button" type="submit" value="login 😎" onclick="login()">
+	</div>
+	</div>
+	
+
+
+<script>
+	function login(){
+			var a,b;
+			a=document.getElementById("email").value;
+			b=document.getElementById("password").value;
+			if (a==null && a=="")
+			{
+				
+				alert("Enter Email")
+				
+			}
+			if (b==null && b=="") {
+				alert("Enter Email")
+			}
+			else if (b.length<8) {
+				alert("password should be 8")
+			}
+			else if(a="join@gmail.com" && b=="computers")
+			{
+				window.open("body1.html");
+			}
+			else
+			{
+				alert("login fail 😌😌")
+			}
+		}
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>special day</title>
+	<style>
+		.container
+		{
+			width: 90%px;
+			height: 100%;
+			position: relative;
+			border:  4px black solid;
+		}
+		/*hearts css*/
+
+		.heart
+		{
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			position: relative;
+			margin-left: 40px;
+			margin-bottom: 70px;
+			transform: rotate(-45deg);
+			box-shadow: -10px 10px 90px #f20044;
+			animation: heart 1s linear infinite;
+		}
+		.heart:before
+		{
+			content: '';
+			position: absolute;
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			top: -50%;
+			border-radius: 50px;
+			box-shadow: -10px 10px 90px #f20044;
+		}
+		@keyframes heart
+		{
+			0%
+			{
+				transform: rotate(-45deg) scale(1.07);
+			}
+			80%
+			{
+				transform: rotate(-45deg) scale(1.0);
+			}
+			100%
+			{
+				transform: rotate(-45deg) scale(0.08);
+			}
+		}
+		.heart:after
+		{
+			content: '';
+			position: absolute;
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			right: -50%;
+			border-radius: 50px;
+		}
+
+		.heart1
+		{
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			position: relative;
+			margin-left: 30px;
+			margin-top: 150px;
+			transform: rotate(-45deg);
+			box-shadow: -10px 10px 90px #f20044;
+			animation: heart 1s linear infinite;
+		}
+		.heart1:before
+		{
+			content: '';
+			position: absolute;
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			top: -50%;
+			border-radius: 50px;
+			box-shadow: -10px 10px 90px #f20044;
+		}
+		@keyframes heart
+		{
+			0%
+			{
+				transform: rotate(-45deg) scale(1.07);
+			}
+			80%
+			{
+				transform: rotate(-45deg) scale(1.0);
+			}
+			100%
+			{
+				transform: rotate(-45deg) scale(0.08);
+			}
+		}
+		.heart1:after
+		{
+			content: '';
+			position: absolute;
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			right: -50%;
+			border-radius: 50px;
+		}
+
+			.heart2
+		{
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			position: relative;
+			margin-left: 1200px;
+			transform: rotate(-45deg);
+			box-shadow: -10px 10px 90px #f20044;
+			animation: heart 1s linear infinite;
+		}
+		.heart2:before
+		{
+			content: '';
+			position: absolute;
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			top: -50%;
+			border-radius: 50px;
+			box-shadow: -10px 10px 90px #f20044;
+		}
+		@keyframes heart
+		{
+			0%
+			{
+				transform: rotate(-45deg) scale(1.07);
+			}
+			80%
+			{
+				transform: rotate(-45deg) scale(1.0);
+			}
+			100%
+			{
+				transform: rotate(-45deg) scale(0.08);
+			}
+		}
+
+		.heart2:after
+		{
+			content: '';
+			position: absolute;
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			right: -50%;
+			border-radius: 50px;
+		}
+
+		.heart3
+		{
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			position: relative;
+			margin-left: 1200px;
+			margin-top: 20px;
+			transform: rotate(-45deg);
+			box-shadow: -10px 10px 90px #f20044;
+			animation: heart 1s linear infinite;
+		}
+
+		.heart3:before
+		{
+			content: '';
+			position: absolute;
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			top: -50%;
+			border-radius: 50px;
+			box-shadow: -10px 10px 90px #f20044;
+		}
+		@keyframes heart
+		{
+			0%
+			{
+				transform: rotate(-45deg) scale(1.07);
+			}
+			80%
+			{
+				transform: rotate(-45deg) scale(1.0);
+			}
+			100%
+			{
+				transform: rotate(-45deg) scale(0.08);
+			}
+		}
+
+		.heart3:after
+		{
+			content: '';
+			position: absolute;
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			right: -50%;
+			border-radius: 50px;
+		}
+
+		.heart4
+		{
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			position: relative;
+			margin-left: 1200px;
+			margin-top: 20px;
+			transform: rotate(-45deg);
+			box-shadow: -10px 10px 90px #f20044;
+			animation: heart 1s linear infinite;
+		}
+		.heart4:before
+		{
+			content: '';
+			position: absolute;
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			top: -50%;
+			border-radius: 50px;
+			box-shadow: -10px 10px 90px #f20044;
+		}
+		@keyframes heart
+		{
+			0%
+			{
+				transform: rotate(-45deg) scale(1.07);
+			}
+			80%
+			{
+				transform: rotate(-45deg) scale(1.0);
+			}
+			100%
+			{
+				transform: rotate(-45deg) scale(0.08);
+			}
+		}
+
+		.heart4:after
+		{
+			content: '';
+			position: absolute;
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			right: -50%;
+			border-radius: 50px;
+		}
+
+
+
+
+
+
+        .heart5
+		{
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			position: relative;
+			margin-left: 50px;
+			transform: rotate(-45deg);
+			box-shadow: -10px 10px 90px #f20044;
+			animation: heart 1s linear infinite;
+		}
+		.heart5:before
+		{
+			content: '';
+			position: absolute;
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			top: -50%;
+			border-radius: 50px;
+			box-shadow: -10px 10px 90px #f20044;
+		}
+		@keyframes heart
+		{
+			0%
+			{
+				transform: rotate(-45deg) scale(1.07);
+			}
+			80%
+			{
+				transform: rotate(-45deg) scale(1.0);
+			}
+			100%
+			{
+				transform: rotate(-45deg) scale(0.08);
+			}
+		}
+
+		.heart5:after
+		{
+			content: '';
+			position: absolute;
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			right: -50%;
+			border-radius: 50px;
+		}
+
+
+
+        .heart6
+		{
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			position: relative;
+			margin-left: 50px;
+			transform: rotate(-45deg);
+			box-shadow: -10px 10px 90px #f20044;
+			animation: heart 1s linear infinite;
+		}
+
+		.heart6:before
+		{
+			content: '';
+			position: absolute;
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			top: -50%;
+			border-radius: 50px;
+			box-shadow: -10px 10px 90px #f20044;
+		}
+		@keyframes heart
+		{
+			0%
+			{
+				transform: rotate(-45deg) scale(1.07);
+			}
+			80%
+			{
+				transform: rotate(-45deg) scale(1.0);
+			}
+			100%
+			{
+				transform: rotate(-45deg) scale(0.08);
+			}
+		}
+
+		.heart6:after
+		{
+			content: '';
+			position: absolute;
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			right: -50%;
+			border-radius: 50px;
+		}
+
+        .heart7
+		{
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			position: relative;
+			margin-left: 1200px;
+			margin-bottom: 70px;
+			transform: rotate(-45deg);
+			box-shadow: -10px 10px 90px #f20044;
+			animation: heart 1s linear infinite;
+		}
+		.heart7:before
+		{
+			content: '';
+			position: absolute;
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			top: -50%;
+			border-radius: 50px;
+			box-shadow: -10px 10px 90px #f20044;
+		}
+		@keyframes heart
+		{
+			0%
+			{
+				transform: rotate(-45deg) scale(1.07);
+			}
+			80%
+			{
+				transform: rotate(-45deg) scale(1.0);
+			}
+			100%
+			{
+				transform: rotate(-45deg) scale(0.08);
+			}
+		}
+		.heart7:after
+		{
+			content: '';
+			position: absolute;
+			height: 70px;
+			width: 70px;
+			background: #f20044;
+			right: -50%;
+			border-radius: 50px;
+		}
+
+
+        /*slider_photos css and other photos same class*/
+
+		.one
+		{
+			display: inline-block;
+			flex-direction: column;
+			border-radius: 10px;
+			margin: 5px;
+		}
+		.photo img
+		{
+		
+			display: inline-block;
+			flex-direction: column;
+			border-radius: 10px;
+			margin: 5px;
+			opacity: 0.2;
+		}
+		.photo img:hover
+		{
+			cursor: pointer;
+			opacity: 1;
+		}
+	   
+
+		#p
+		{
+			font-size: 35px;
+		}
+		p
+		{
+			font-size: 25px;
+			text-align: center
+
+	</style>
+</head>
+
+<body bgcolor="#CA89CA">
+	            <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+
+	<h1><center>happy valentines day</center></h1>
+	<div class="heart">
+	</div>
+	<div class="heart7">
+	</div>
+	<marquee><img class="one" src="1.jpg" width="150px" height="250px">
+		<img class="one" src="2.jpg" width="150px" height="250px">
+		<img class="one" src="8.jpg" width="150px" height="250px">
+		<img class="one" src="28.jpg" width="150px" height="250px">
+		<img class="one" src="14.jpeg" width="250px" height="150px">
+		<img class="one" src="24.jpg" width="150px" height="250px">
+		<img class="one" src="25.jpg" width="150px" height="250px">
+		<img class="one" src="27.jpg" width="150px" height="250px">
+        <img class="one" src="23.jpeg" width="250px" height="150px"></marquee>
+        <audio controls><source src="Khaab - Akhil.mp3" type="audio/ogg"></audio>
+	<div class="container">
+			<div class="image">
+				<img class="one" src="15.jpg" width="200px" height="400px">
+                <img class="one" src="20.jpg" width="200px" height="400px">
+                <img class="one" src="10.jpg" width="230px" height="400px">
+                <img class="one" src="5.jpg" width="200px" height="400px">
+                <img class="one" src="2.jpg" width="200px" height="400px">
+                <img class="one" src="12.jpg" width="200px" height="400px">
+                <p id="p" align="center">i pray to god that we are always together-whether on earth<br>
+                or in heaven HAPPAY VALENTINE'S DAY <br>
+                meri jaan</p>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+                <samp id="heart">❣</samp>
+         
+
+		        <img class="one" src="3.jpg" width="420px" height="200px">
+		        <img class="one" src="6.jpg" width="420px" height="200px">
+		        <img class="one" src="11.jpg" width="400px" height="200px">
+		        <div class="heart1"></div>
+		        <div class="heart2"></div>
+		        <p>waise toh haar ek din valentiné's hota hai kyuki tum mere sath hoti hai <br>and this is my first valentine's day but haa tum bhut special hu mere liye <br>or thanks itna trust or dhayna rakhne ke liye mere</p>
+		        <p>or jayda toh kuch nahi hai bolne ko but <br>i love you❣❣<br>
+		        </p>
+		        <img class="one" src="4.jpg" width="250px" height="400px">
+                <img class="one" src="16.jpg" width="250px" height="400px">
+                <img class="one" src="13.jpg" width="250px" height="400px">
+                <img class="one" src="21.jpg" width="250px" height="400px">
+                <img class="one" src="26.jpg" width="250px" height="400px">
+
+
+
+
+                <div class="heart3"></div>
+                <div class="heart5"></div>
+                <h2><center>"special person"
+                	<p>you are such a special person <br>when i think about the fact that you are in my life ❣<br>
+                i trurly cannot believe how lucky i am <br>to have found you.</p></center>
+                </h2>
+                <div class="heart6"></div>
+       
+		        <div class="heart4"></div>
+
+                 <p>
+                	<img class="one" src="9.jpg" width="250px" height="450px">
+                	<img class="one" src="17.jpg" width="250px" height="450px">
+                	<img class="one" src="18.jpg" width="250px" height="450px">
+                	<img class="one" src="29.jpg" width="250px" height="450px">
+                	<video autoplay width="200px" height="550px" controls="autoplay">
+                	<source src="22.mp4" type="video/mp4">
+                </video>
+                </p>
+                <section><center>
+                	<h2>kunnu ki bachapan ki photos</h2></center>
+                	<div class="photo">
+                	<img src="31.jpg"  width="250px" height="450px">
+                	<img src="32.jpg" width="250px" height="450px">
+                	<img src="33.jpg" width="250px" height="450px">
+                	<img src="34.jpg" width="250px" height="450px">
+                	<img src="35.jpg" width="250px" height="450px"><br><br>
+                	<img src="36.jpg" width="250px" height="450px">
+                	<img src="37.jpg" width="250px" height="450px">
+                	<img src="38.jpg" width="250px" height="450px">
+                	<img src="39.jpg" width="250px" height="450px">
+                	<img src="40.jpg" width="250px" height="450px"><br><br>
+                	<img src="41.jpg" width="250px" height="450px">
+                	<img src="42.jpg" width="250px" height="450px">
+                	<img src="43.jpg" width="250px" height="450px">
+                	<img src="44.jpg" width="250px" height="450px">
+                	<img src="45.jpg" width="250px" height="450px"><br><br>
+                	<img src="46.jpg" width="250px" height="450px">
+                	<img src="47.jpg" width="250px" height="450px">
+                	<img src="48.jpg" width="250px" height="450px">
+                	<img src="49.jpg" width="250px" height="450px">
+                	<img src="50.jpg" width="250px" height="450px"><br><br>
+                	<img src="51.jpg" width="250px" height="450px">
+                	<img src="52.jpg" width="250px" height="450px">
+                	<img src="53.jpg" width="250px" height="450px">
+                	<img src="54.jpg" width="250px" height="450px">
+                	<img src="55.jpg" width="250px" height="450px"><br><br>
+                	<img src="56.jpg" width="250px" height="450px">
+                	<img src="57.jpg" width="250px" height="450px">
+                	<img src="58.jpg" width="250px" height="450px">
+                	<img src="59.jpg" width="250px" height="450px">
+                	<img src="60.jpg" width="250px" height="450px"><br><br>
+                	<img src="61.jpg" width="250px" height="450px">
+                	<img src="62.jpg" width="250px" height="450px">
+                	<img src="63.jpg" width="250px" height="450px">
+                	<img src="64.jpg" width="250px" height="450px">
+                	<img src="65.jpg" width="250px" height="450px"><br><br>
+                	<img src="66.jpg" width="250px" height="450px">
+                	<img src="67.jpg" width="250px" height="450px">
+                	<img src="68.jpg" width="250px" height="450px">
+                	<img src="69.jpg" width="250px" height="450px">
+                	<img src="70.jpg" width="250px" height="450px"><br><br>
+                	<img src="71.jpg" width="250px" height="450px">
+                	<img src="72.jpg" width="250px" height="450px">
+                	<img src="73.jpg" width="250px" height="450px">
+                	<img src="74.jpg" width="250px" height="450px">
+                	<img src="75.jpg" width="250px" height="450px"><br><br>
+                	<img src="76.jpg" width="250px" height="450px">
+                	<img src="77.jpg" width="250px" height="450px">
+                	<img src="78.jpg" width="250px" height="450px">
+                	<img src="79.jpg" width="250px" height="450px">
+                	<img src="80.jpg" width="250px" height="450px"><br><br>
+                	<img src="81.jpg" width="250px" height="450px">
+                	<img src="82.jpg" width="250px" height="450px">
+                	<img src="83.jpg" width="250px" height="450px">
+                	<img src="84.jpg" width="250px" height="450px">
+                	<img src="85.jpg" width="250px" height="450px"><br><br>
+                	<img src="86.jpg" width="250px" height="450px">
+                	<img src="87.jpg" width="250px" height="450px">
+                	<img src="88.jpg" width="250px" height="450px">
+                	<img src="89.jpg" width="250px" height="450px">
+                	<img src="90.jpg" width="250px" height="450px"><br><br>
+                	<img src="91.jpg" width="250px" height="450px">
+                	<img src="92.jpg" width="250px" height="450px">
+                	<img src="93.jpg" width="250px" height="450px">
+                	<img src="94.jpg" width="250px" height="450px">
+                	<img src="95.jpg" width="250px" height="450px"><br><br>
+                	<img src="96.jpg" width="250px" height="450px">
+                	<img src="97.jpg" width="250px" height="450px">
+                	<img src="98.jpg" width="250px" height="450px">
+                	<img src="99.jpg" width="250px" height="450px">
+                	<img src="100.jpg" width="250px" height="450px"><br><br>
+                	<img src="101.jpg" width="250px" height="450px">
+                	<img src="102.jpg" width="250px" height="450px">
+                	<img src="103.jpg" width="250px" height="450px">
+                	<img src="104.jpg" width="250px" height="450px">
+                	<img src="105.jpg" width="250px" height="450px"><br><br>
+                	<img src="106.jpg" width="250px" height="450px">
+                	<img src="107.jpg" width="250px" height="450px">
+                	<img src="108.jpg" width="250px" height="450px">
+                	<img src="109.jpg" width="250px" height="450px">
+                	<img src="110.jpg" width="250px" height="450px"><br><br>
+                	<img src="111.jpg" width="250px" height="450px">
+                	<img src="112.jpg" width="250px" height="450px">
+                	<img src="113.jpg" width="250px" height="450px">
+                	<img src="114.jpg" width="250px" height="450px">
+                	<img src="115.jpg" width="250px" height="450px"><br><br>
+                	<img src="116.jpg" width="250px" height="450px">
+                	<img src="117.jpg" width="250px" height="450px">
+                	<img src="118.jpg" width="250px" height="450px">
+                	<img src="119.jpg" width="250px" height="450px">
+                	<img src="120.jpg" width="250px" height="450px"><br>
+                	</div>
+                </section>
+
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+                <samp id="heart">❤</samp>
+
+			</div>
+</body>
+<script>
+	
+	window.open("birthday.html");
+</script>
+</html>
